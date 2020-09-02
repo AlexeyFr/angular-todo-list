@@ -1,0 +1,6 @@
+<form class="form" (ngSubmit)="addTodo()">
+  <input type="text" placeholder="Add new todo to list" name="todo" [(ngModel)]="title">
+  <button class="add" mat-icon-button color="accent" aria-label="save icon">
+    <mat-icon>save</mat-icon>
+  </button>
+</form>
